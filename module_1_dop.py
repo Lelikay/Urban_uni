@@ -16,4 +16,5 @@ dict_stud = {}
 for i in range (len_grades):
   dict_stud_item = {students [i]: list_ar_mean_gr [i]}
   dict_stud.update(dict_stud_item)
+# dict_stud = dict(zip(students, list_ar_mean_gr))
 print(dict_stud)
