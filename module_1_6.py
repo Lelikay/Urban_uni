@@ -9,7 +9,7 @@ print ('Nik was born in', a)
 print ('Modified my_dict: ', my_dict)
 
 my_set = {1, 2, 'Lelikay', 4.0, 2, False, True, False, (True, False, 3, 1)}
-print ('my_set: ', my_set) # я не понимаю почему не выводиться элемент True
+print ('my_set: ', my_set) # я не понимаю почему не выводится элемент True
 my_set.update (['Alex', ' '])
 my_set.discard('Lelikay')
 print ('modified my_set: ', my_set)
