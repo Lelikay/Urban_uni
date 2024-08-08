@@ -6,7 +6,6 @@ for i in range(1, a):
     for j in range(2, a):
         if i == j:
             primes.append(i)
-            break
         elif i % j == 0:
             not_primes.append(i)
             break
